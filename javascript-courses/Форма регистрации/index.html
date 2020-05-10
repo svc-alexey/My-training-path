@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Project6 - Forms</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+	<!-- action - файл обработчик формы
+POST,GET если укаазан GET, то данные передаются через адресную строку браузера
+-->
+	<div class="login-form">
+		<h1>Регистрация</h1>
+
+		<fieldset>
+			<form action="" method="post" onsubmit="return false;">
+				<div class="error" id="textError"></div>
+				<h6>Ваше имя</h6><input type="text" id="userName">
+				<h6>E-mail</h6><input type="email" id="userEmail">
+				<h6>Пароль</h6><input type="password" id="userPass">
+				<h6>Повторите пароль</h6><input type="password" id="userRePass">
+				<input type="submit" id="submit" value="ЗАРЕГИСТРИРОВАТЬСЯ" class="auth" onclick="regForm();">
+				<!-- button - это обычная кнопка,без передачи данных в обработчик
+	<button>Кнопка</button>
+	-->
+			</form>
+		</fieldset>
+	</div>
+
+	<script src="/js/script.js"></script>
+</body>
+
+</html>
