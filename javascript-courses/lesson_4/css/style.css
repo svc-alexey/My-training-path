@@ -1,0 +1,38 @@
+.wrapper {
+    width: 960px;
+    /*height: 1500px;*/
+    /*блок по центру*/
+    margin: auto;
+    background: #facade;
+    padding-bottom: 100px;
+}
+
+.but {
+    width: 200px;
+    margin: auto;
+}
+
+.but button {
+    width: 80px;
+    height: 30px;
+    background: #fa7a55;
+    border: none;
+    /*отключаем рамку у кнопок*/
+    margin: 0 5px;
+    /*отступ вокруг кнопок*/
+    cursor: pointer;
+    /*при наведении курсор меняется на руку*/
+    text-transform: uppercase;
+    /*текст кнопок преобразовать в верхний регистр*/
+    font-weight: bold;
+    /*жирность кнопок*/
+}
+
+.slider {
+    width: 900px;
+    padding: 20px 30px;
+}
+
+.slider img {
+    width: 900px;
+}

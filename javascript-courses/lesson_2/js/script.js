@@ -1,27 +1,14 @@
 "use strict";
 
-// System date work
-function numbersRandom() {
-    let systemDate = new Date();
-    let sec = systemDate.getSeconds();
-    // let hours = systemDate.getHours();
-    // let minutes = systemDate.getMinutes();
-    // console.log("Time Now: " + hours + ':' + minutes);
-    let getNumbers = sec % 10;
-    return getNumbers;
+// get function
+function userColor(color) {
+    document.bgColor = color;
 }
 
-function theGame() {
-    let generateNumber = numbersRandom();
-    let userInput = document.getElementById("userNumber").value;
-
-    if (generateNumber == userInput) {
-        // alert("Right");
-        document.getElementById("gameResult").innerHTML = "Right!";
-    } else if (userInput == "") alert("Enter number 0 - 9");
-    else document.getElementById("gameResult").innerHTML = "Wrong!";
-}
-
-function nextImg(pic) {
-    document.getElementById("gallery").src = "img/" + pic;
+function searchText() {
+    let getTextSearch = document.getElementById('userTextSearch').value;
+    let codeYandex = "https://yandex.ru/search/?lr=959&text=";
+    let fullTextSerch = codeYandex + getTextSearch;
+    // redirect url
+    window.location.href = fullTextSerch;
 }
