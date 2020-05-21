@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Translator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Multilang Translator</h1>
+        </div>
+
+        <div class="multilangDic-top">
+            <div>
+                <h2>Add words with translate</h2>
+            </div>
+            <label for="ru">Russian</label><input type="text" id="ru">
+            <label for="en">English</label><input type="text" id="en">
+            <label for="ch">China</label><input type="text" id="ch">
+            <button onclick="addWords();">Add</button>
+        </div>
+
+
+        <div class="multilangDic-bot">
+            <h2 class="header__bot">Used words</h2>
+            <p>вишня - яблоко - ручка</p>
+            <p>cherry - apple - pen</p>
+            <p>樱桃 - 苹果 - 一支笔</p>
+            <!-- input words to translate -->
+            <input type="text" id="userWords" placeholder="Your word">
+            <button id="translate" onclick="start();">Translate</button>
+            <!-- block output translate -->
+            <div class="res" id="result"></div>
+        </div>
+
+        <div class="frequaencyDic">
+            <h2>Frequaency Dictionary</h2>
+            <input type="text" id="userText" placeholder="Enter Text">
+            <button onclick="addText();">Add</button>
+            <div id="textresult"></div>
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
