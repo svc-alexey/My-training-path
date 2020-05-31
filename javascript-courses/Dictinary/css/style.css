@@ -93,3 +93,9 @@ button {
 .frequaencyDic {
     margin-bottom: 30px;
 }
+
+#textresult {
+    font-size: 16px;
+    background: rgba(233, 103, 103, 0.842);
+    margin: 10px 150px 0px 150px;
+}
