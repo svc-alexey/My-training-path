@@ -1,0 +1,14 @@
+.mainTable,
+tr,
+td {
+    border: 1px solid blue;
+}
+
+
+button {
+    margin-top: 30px;
+}
+
+input {
+    border: none;
+}

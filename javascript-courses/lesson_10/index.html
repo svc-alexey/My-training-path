@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <table class="mainTable" id="exTable">
+
+        <tr id="str1">
+            <td>Name</td>
+            <td>Prise</td>
+            <td>Value</td>
+        </tr>
+
+        <tr id="str2">
+            <td>Pen</td>
+            <td>100</td>
+            <td>20</td>
+        </tr>
+
+        <tr id="str3">
+            <td>Copybook</td>
+            <td>300</td>
+            <td>40</td>
+        </tr>
+
+        <tr id="str4">
+            <td>Knife</td>
+            <td>15</td>
+            <td>30</td>
+        </tr>
+
+    </table>
+
+    <!-- Output all cost -->
+    <div id="result"></div>
+
+    <button onclick="price();">Add cows with all cost</button>
+
+    <!-- доделать новую строку с новым товаром с добавлением в таблицу -->
+    <br>
+    <br>
+    <br>
+
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>Prise</td>
+            <td>Value</td>
+        </tr>
+        <tr id="newInput">
+            <td><input type="text" id="inName"></td>
+            <td><input type="text" id="inPrise"></td>
+            <td><input type="text" id="inValue"></td>
+        </tr>
+    </table>
+
+    <button onclick="addNew();">Add new product</button>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

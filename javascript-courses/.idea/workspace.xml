@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6bfb3e52-eb0e-4ef6-a586-369873908942" name="Default Changelist" comment="" />
+    <list default="true" id="6bfb3e52-eb0e-4ef6-a586-369873908942" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-samurai/project/01/react-samurai-01" beforeDir="false" afterPath="$PROJECT_DIR$/../react-samurai/project/01/react-samurai-01" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +35,12 @@
       <option name="presentableId" value="Default" />
       <updated>1590928432397</updated>
       <workItem from="1590928433843" duration="5000" />
+      <workItem from="1591896012395" duration="6000" />
+      <workItem from="1592137405224" duration="17000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
 </project>
