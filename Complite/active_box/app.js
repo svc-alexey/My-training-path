@@ -53,7 +53,7 @@ $(function() {
 
 
 
-    /* Reviews: https://kenwheeler.github.io/slick/ */
+    /* Reviews */
     let slider = $("#reviewsSlider");
 
     slider.slick({
